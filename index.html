@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale= 1">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/icone.png"/>
+    <title>Meu Primeiro Site - Saúde e Bem Estar</title>
+    <style>
+        .fundo{
+            background-image: url("img/20.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+        .fundo:hover{
+            background-image: url("img/fundo7.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            transition: all 1.5s linear;
+            height: 100vh;
+        }
+        @media screen and (max-width: 480px) {
+            .fundo{
+            background-image: url("img/21.png");
+            background-size: cover;
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            }
+            .fundo:hover{
+                background-image: url("img/21.png");
+                background-size: cover;
+                position: relative;
+                height: 100vh;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+    <body>
+        <header>
+            <div id="logo">
+                <a href="#capa">
+                    <img src="img/logo1.png" alt="Logo">
+                </a>
+            </div>
+            <input type="checkbox" id="check">
+            <label id="lista-icon" for="check"><img src="img/menu.png" alt="Menu"></label>
+            <div class="barra">
+                <nav>
+                    <a href="#projeto"><div class="menu-link">O PROJETO</div></a>
+                    <a href="#projeto2"><div class="menu-link">O QUE É?</div></a>
+                    <a href="#projeto3"><div class="menu-link">COMO?</div></a>
+                    <a href="#projeto5"><div class="menu-link">NO BRASIL</div></a>
+                    <a href="#projeto6"><div class="menu-link">MAIS</div></a>
+                    <a href="#projeto7"><div class="menu-link">SOBRE</div></a>
+                </nav>
+            </div>
+        </header>
+        <figure id="capa" class="center">
+            <div class="fundo">
+                <h1 class="margin">Saúde e Bem - Estar</h1>
+                <h2 class="margin2">
+                    “Cuidar da sua saúde e bem-estar também é se amar.”
+                </h2>
+                <a id="ods_link" href="https://nacoesunidas.org/pos2015/ods3/" target="blank">ODS 3</a>
+                <!--target = "blank" abre o link numa guia separada-->
+            </div>
+        </figure>
+        <section id="projeto" class="section_tipo">
+            <h3 name="#projeto" class="titulo">O Projeto</h3>
+            <br>
+            <br>
+            <div class="coluna1">
+                <p class="texto"> Embora nas últimas décadas tenha havido avanços significativos no aumento da esperança de vida e na redução da mortalidade infantil e materna, ainda são necessárias mais iniciativas e projetos que erradiquem totalmente diferentes questões relativas à saúde e ao bem-estar.</p>
+                <p class="texto2">De acordo com o último relatório publicado pelo Fundo da ONU para a infância ( UNICEF ), a Organização Mundial de Saúde ( OMS ) e outros organismos das Nações Unidas, cerca de 15.000 crianças morrem diariamente antes de atingirem os cinco anos e 2,6 milhões delas morrem antes de atingirem seu primeiro mês de vida anualmente.</p>
+                <p class="texto">Diante dessa situação, reduzir a taxa de mortalidade infantil e materna e acabar com as epidemias converteu - se no terceiro dos 17 Objetivos de Desenvolvimento Sustentável da ONU, aprovados em setembro de 2015 durante a Cúpula sobre Desenvolvimento Sustentável, um evento em que mais de 150 chefes de Estado e de Governo aprovaram a denominada Agenda 2030.</p>
+            </div>
+            <div class="coluna2">    
+                <iframe width="525" height="265"  src="https://www.youtube.com/embed/5r84WCHjNkA" frameborder="0" allow="accelerometer autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="projeto2" class="section_tipo">
+            <br>
+            <br>
+            <h4 name="#oqueé" class="titulo">O que é Saúde e Bem-estar ?</h4>
+            <div class="coluna3">
+                <p class="texto">Segundo a Organização Mundial de Saúde (OMS), saúde pode ser definida como “um estado de completo bem-estar físico, mental e social, e não apenas a ausência de doença ou enfermidades”. Sendo assim, não basta apenas estar sem nenhuma doença, é necessário estar bem consigo mesmo e com o corpo, sem sentir dores ou até mesmo tristeza.</p>
+                <p class="texto2">Para conseguir bem-estar físico, é importante estar sempre ativo através da prática de exercícios. Não há idade para iniciar as atividades físicas, por isso, faça uma caminhada, natação ou até mesmo exercícios mais pesados, como musculação. O importante é realizar uma atividade que gere bem-estar. Além disso, é válido ter sempre em mente que os exercícios físicos aumentam a expectativa de vida, diminuem o estresse, além de proporcionarem mais beleza quando o assunto é estética.</p>
+            </div>
+            <div class="coluna4">
+                <img class="img-cel" src="img/27.jpg" width="525" height="265">
+            </div>
+        </section>
+        </section>
+        <section id="projeto3" class="section_tipo">
+            <br>
+            <br>
+            <h4 name="#pq" class="titulo">Como Adquirir uma boa Saúde:</h4>
+            <div class="coluna5">
+                <img class="saude" src="redes/icone1.png">
+                <h5 class="titulo-coluna">Saúde Mental</h5>
+
+                <p class="texto-col">Tão importante quanto a saúde física é estarmos bem psicologicamente, não é mesmo? Ninguém quer ter uma mente perturbada e inquieta. Uma má higiene mental pode criar muitos problemas, por isso é importante estarmos atentos e cultivar bons hábitos mentais. Isso é muito individual para cada pessoa, porém algumas coisas são universalmente aceitas como mentalmente saudáveis. </p>
+            </div>
+            <div class="coluna5">
+                <img class="saude" src="redes/icone2.png">
+                <h5 class="titulo-coluna">Sono</h5>
+
+                <p class="texto-col">Se você não dorme bem, seu dia é ruim, seu aprendizado é ruim, seus relacionamentos são prejudicados, seus resultados no trabalho sofrem, além de você adquirir diversos problemas de saúde no longo prazo. Você pode pensar que é exagero, mas, na minha opinião, se você não dorme bem, resolver esse problema deve ser sua primeira prioridade na vida, tamanha a importância disso.</p>
+            </div>
+            <div class="coluna5">
+                <img class="saude" src="redes/icone3.png">
+                <h5 class="titulo-coluna">Alimentação</h5>
+
+                <p class="texto-col">Ter uma boa alimentação é um dos itens mais importantes para uma boa saúde. Para manter-se em boa forma ao longo do tempo, o resultado vem 60% da alimentação e 40% dos exercícios físicos. A verdade é que não existe um alimento milagroso, nem sequer uma dieta ideal pronta. Cada um reage de forma diferente aos alimentos. Pois a melhor alimentação é você quem deve buscar.</p>
+            </div>
+            <div class="coluna5">
+                <img class="saude" src="redes/icone4.png">
+                <h5 class="titulo-coluna">Exercícios Físicos</h5>
+
+                <p class="texto-col">Os benefícios da atividade física são tantos que é impossível enumerar, alguns: previne de diabetes, doenças cardíacas, obesidade, a hipertensão arterial, a diminuição da depressão, da ansiedade, além melhorar o bom humor e autoestima. As opções são diversas: corrida, musculação, pilates, treino Intervalado entre várias outras.</p>
+            </div>
+        </section>
+        <section id="projeto4" class="section_tipo">
+            <br>
+            <br>
+            <h4 class="titulo">Quais são os benefícios de uma vida saudável?</h4>
+            <div class="coluna6">
+                <p class="texto">São diversos os benefícios que podemos ter quando praticamos uma vida saudável – prevenimos um monte de doenças, nos mantemos dentro do peso, tornamos a atividade física uma prática regular, temos aquela sensação agradável de se estar saudável e entre milhares de outras coisas.</p>
+                <p class="texto2">O que muitos acabam não percebendo, é que com uma rotina saudável, estamos diminuindo os custos com saúde – seja em consultas particulares, cirurgias, medicamentos, convênios  entre outros. Além disso, poupamos nosso tempo esperando em filas dos serviços de saúde!</p>
+            </div>
+            <div class="coluna6-1">
+                <img class="img-cel2" src="img/beneficio.jpg" width="520" height="250">
+            </div>
+        </section>
+        <section id="projeto5" class="section_tipo">
+            <br>
+            <br>
+            <h4 class="titulo">A Saúde no Brasil</h4>
+            <div class="coluna7">
+                <p class="texto">Você deve estar se perguntando: Mas que esforços o Brasil está fazendo para contribuir com a ODS 3 e alcançar um mundo mais saudável?</p>
+                <p class="texto2">Apesar de ser um país grande e complexo o Brasil vem passando por diversas transformações econômicas, sociais e ambientais. Para isso o Governo Federal e o Ministério da Saúde implementaram em 2019 uma série de programas para melhorar o acesso à Atenção Primária à Saúde. O conjunto de medidas inclui os programas:</p>
+            </div>
+            <div class="coluna7-1">
+                <img class="saude" src="redes/24-horas.png">
+                <a class="link3"  href="https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2019/12/saude-na-hora-19-milhoes-de-brasileiros-com-atendimento-ampliado" target="blank"><h5 class="titulo-coluna">Saúde na Hora</h5>
+                </a>
+                <p class="texto-col">O Programa Saúde na Hora já conta com a participação de 1.454 Unidades de Saúde da Família (USF). Significa que nestas unidades, além dos horários convencionais, de 07h às 17h, o cidadão também pode ser atendido no horário do almoço, à noite ou aos finais de semana.</p>
+            </div>
+            <div class="coluna7-1">
+                <img class="saude" src="redes/cirurgiao.png">
+                <a class="link3" href="https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2019/12/presidente-bolsonaro-sanciona-lei-do-medicos-pelo-brasil" target="blank"><h5 class="titulo-coluna">Médicos pelo Brasil</h5></a>
+                <p class="texto-col">Lançado em agosto, o Médicos pelo Brasil fortalece a atenção primária com a previsão de 18 mil vagas para esses profissionais em todo o Brasil, sendo 13 mil em áreas rurais e remotas. O programa garante apoio, suporte e investimento às pessoas que mais precisam.</p>
+            </div>
+            <div class="coluna7-1">
+                <img class="saude" src="redes/ambulancia.png">
+                <a class="link3"  href="https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2019/12/ministerio-da-saude-antecipa-renovacao-de-frota-de-2020" target="blank"><h5 class="titulo-coluna">Samu 192 renovado</h5></a>
+                <p class="texto-col">O Governo Federal investiu, somente neste ano, quase R$ 200 milhões na renovação da frota do Serviço de Atendimento Móvel de Urgência e Emergência (Samu 192). São 1.519 novas ambulâncias reforçando o atendimento à população em todo o País, em mais de mil municípios de 24 estados.</p>
+            </div>
+            <div class="coluna7-1">
+                <img class="saude" src="redes/vacina.png">
+                <a class="link3"  href="https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2019/12/brasil-atinge-99-4-de-cobertura-vacinal-de-sarampo-em-2019" target="blank"><h5 class="titulo-coluna">Vacinação</h5></a>
+                <p class="texto-col">O Governo Federal conquistou bons resultados na proteção da população contra diversas doenças e ultrapassou a meta de cobertura vacinal de sarampo e tríplice viral (sarampo, rubéola e caxumba), com 99,4 % das crianças de até um ano de idade vacinadas. O resultado foi o melhor dos últimos cinco anos.</p>
+            </div>
+        </section>
+        <section id="mais" class="section_tipo">
+            <h4 class="titulo">Vídeos Para Assistir</h4>
+            <div class="extra-col1">
+                <iframe  width="525" height="265" src="https://www.youtube.com/embed/VyFQaLvTc_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="extra-col2">
+                <iframe width="525" height="265" src="https://www.youtube.com/embed/IQhNrQctrg8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="projeto6" class="section_tipo">
+            <br>
+            <br>
+            <h4 class="titulo">Sobre Mim</h4>
+            <div class="coluna8">
+                <p class="texto">Muito prazer, sou Gustavo Oliveira, tenho 15 anos e participei do programa meu primeiro site ! 
+                Atualmente estou cursando o primeiro ano em Técnico em informática para internet no IF Baiano Campus Guanambi.</p>
+
+                <p class="texto2">Desde o início sempre fui fascinado pela área de TI   e tenho aproveitado o máximo para me ingressar nessa área. Atualmente moro na cidade de Caetité - Ba, onde aproveito o meu tempo livre para me aprofundar ainda mais nessa área e me divertir com meus amigos.</p>
+                    
+                <p class="texto">O programa meu primeiro site veio para mim na hora certa, me proporcionando mais experiência e muita aprendizagem. Só tenho a agradecer à JA Brasil por oferecer um conteúdo e professores muita qualidade.</p>
+
+                <p class="texto2">No projeto, procurei trazer o máximo de informações e esclarecimento sobre esse ODS tão essencial para nossa vida. <br>Espero que tenham gostado, agradeço a atenção.</p>
+            </div>
+            <div class="coluna8-1">
+                <img class="img-cel2" src="img/eu.jpg" width="426" height="426">
+            </div>
+            </section>
+        <footer id="rodape" class="final">
+            <div class="coluna9">
+                <h4 class="titulo-pe">Meu Primeiro Site</h4>
+                <p class="texto-pe">
+                    Projeto desenvolvido durante o curso Meu primeiro site, promovido pela <a class="link2" href="https://www.jabrasil.org.br/" target="blank">Junior Achievement Brasil</a> e <a class="link2"  href="https://www.microsoft.com/pt-br" target="blank">Microsoft</a>.
+                </p>
+            </div>
+            <div class="coluna10">
+                    <h4 class="titulo-pe2">Redes Sociais:</h4>
+                    <div class="contato">
+                        <a class="icon" href="https://www.facebook.com/profile.php?id=100035331556318"> <img class="icone" src="redes/face.png" rel="Facebook" alt="Facebook"></a>
+                    </div>
+                    <div class="contato">
+                        <a class="icon" href="https://bit.ly/2XpexZU"><img class="icone" src="redes/zap.png" rel="Whatsapp" alt="Whatsapp"></a>
+                    </div>
+                    <div class="contato">
+                        <a class="icon"  href="https://www.instagram.com/gustavo_oliveira447/?hl=pt-br"><img class="icone" src="redes/insta.png" rel="Instagram" alt="Instagram"></a>
+                    </div>
+                    <div class="contato">
+                    <a class="icon" href="https://github.com/Gustavo447"><img class="icone" src="redes/git.png" rel="GitHub" alt="GitHub"></a>
+                    </div>
+            </div>
+        </footer>
+    </body>    
+</html>
